@@ -76,7 +76,8 @@ Site A
 <img width="940" height="587" alt="image" src="https://github.com/user-attachments/assets/1a3b51cd-36d5-4028-b25b-7e3a594b6707" />
 Site B
 <img width="940" height="717" alt="image" src="https://github.com/user-attachments/assets/7c59ff42-de6c-4993-a242-d2edb6e95c5b" />
-##Pfsense Site A: Wan 
+
+Pfsense Site A: Wan 
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/e9382851-6558-4b2b-a3c5-7ed5437e1c9c" />
 
 Pfsense Site B: Wan 
