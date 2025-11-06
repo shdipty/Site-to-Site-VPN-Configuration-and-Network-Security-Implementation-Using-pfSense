@@ -73,11 +73,14 @@ Each pfSense firewall used **2 virtual adapters** — one for WAN and one for LA
 - Matched subnets and encryption settings on both ends to ensure successful negotiation.
   
 Site A
+
 <img width="940" height="587" alt="image" src="https://github.com/user-attachments/assets/1a3b51cd-36d5-4028-b25b-7e3a594b6707" />
+
 Site B
 <img width="940" height="717" alt="image" src="https://github.com/user-attachments/assets/7c59ff42-de6c-4993-a242-d2edb6e95c5b" />
 
 Pfsense Site A: Wan 
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/e9382851-6558-4b2b-a3c5-7ed5437e1c9c" />
 
 Pfsense Site B: Wan 
@@ -85,13 +88,17 @@ Pfsense Site B: Wan
 
 Tunnel 1
 <img width="940" height="1076" alt="image" src="https://github.com/user-attachments/assets/0e74e0cf-6594-451a-96a5-1f033d02dfcd" />
+
 <img width="940" height="1076" alt="image" src="https://github.com/user-attachments/assets/b2f709a8-04c9-4e56-a669-8a229a234d40" />
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/fdaba21a-5b2f-41b2-8295-35bf8f95e231" />
 
 
 Tunnel 2
 <img width="940" height="523" alt="image" src="https://github.com/user-attachments/assets/a93a400f-ae31-46c6-8254-d34ba36632c9" />
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/8876cfc2-eaa9-4297-8c4b-83ff4815736a" />
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/4ff21af5-b879-420b-b894-b991f65e484f" />
 
 
@@ -105,15 +112,20 @@ Tunnel 2
 On Site A: 
 
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/c863297d-adc2-445b-a995-3395bd56309d" />
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/59a5d25b-eecb-418d-93fb-f61b07d906e1" />
 
 On Site B: 
+
 <img width="940" height="527" alt="image" src="https://github.com/user-attachments/assets/489f5964-2c0d-452a-9a0d-6da21e44d586" />
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/4b94d6a6-f8c1-4bf6-8022-4bf60dcd5249" />
 
 
 Tunnel is established and its up 
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/ea1cfe66-2bcc-4bd2-bbcb-eb2be531dd28" />
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/00773d07-1084-44d0-9259-46100bbf894e" />
 
 
@@ -130,16 +142,21 @@ Tunnel is established and its up
 
 Site A
 Kali Linux
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/6408a5ff-2332-43a2-9fbb-6ed52d8899da" />
 
 Ubuntu
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/56ea2574-9b1c-41fe-922d-9294bc896211" />
 
 Site B
+
 Windows 10
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/2a90d5a8-6914-4323-b6a7-374dddaed0c8" />
 
 Linux Mint
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/048b82d4-f99d-4616-b51f-b365493bf4e1" />
 
 
@@ -154,9 +171,11 @@ Linux Mint
 - Validated IPsec tunnel stability via **pfSense Status > IPsec** interface.
 
 Sending file from Site A: 
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/d22342fa-4545-4c1a-9df7-6df04b4467d8" />
 
 Verifying it from site B: 
+
 <img width="790" height="444" alt="image" src="https://github.com/user-attachments/assets/561e7ac7-5861-4a01-ad1b-985b45de3357" />
 
 Site A&B: 
@@ -165,22 +184,27 @@ Site A&B:
 
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/7bc7f563-e48f-4be8-8e48-aaf1e3180ab8" />
 
-4.	Firewall rule for WAN interface 
+4.	Firewall rule for WAN interface
+   
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/d49f1e40-6d28-4ff4-bb3c-0727e5cb635e" />
 
-5.	Ipsec rule for both site
+6.	Ipsec rule for both site
+   
 <img width="940" height="526" alt="image" src="https://github.com/user-attachments/assets/9c4cf9c9-aa5c-4d6f-baba-15e8a3ac7d90" />
 
-6.	Packet capture by “Wireshark”. We can see that the transfer data is encrypted.
+8.	Packet capture by “Wireshark”. We can see that the transfer data is encrypted.
 
 <img width="940" height="527" alt="image" src="https://github.com/user-attachments/assets/62e39e16-6162-4381-bdd8-d9b31e08a120" />
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/2f4eb9bb-0b2b-425a-bb91-48ec34cfcff1" />
+
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/5db316fd-cf61-4100-9ebf-8011c999c35c" />
 
 
 ---
 
-## 🌐 Network Topology  
+## 🌐 Network Topology 
+
 <img width="940" height="374" alt="image" src="https://github.com/user-attachments/assets/0ce60633-c3ae-4af1-8a88-1e23a59ba36f" />
 
 ## 🏁 Conclusion  
