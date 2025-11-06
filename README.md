@@ -71,23 +71,24 @@ Each pfSense firewall used **2 virtual adapters** — one for WAN and one for LA
   - DH Group: **14**
   - Authentication: **Pre-Shared Key**
 - Matched subnets and encryption settings on both ends to ensure successful negotiation.
-##Site A
+  
+Site A
 <img width="940" height="587" alt="image" src="https://github.com/user-attachments/assets/1a3b51cd-36d5-4028-b25b-7e3a594b6707" />
-##Site B
+Site B
 <img width="940" height="717" alt="image" src="https://github.com/user-attachments/assets/7c59ff42-de6c-4993-a242-d2edb6e95c5b" />
 ##Pfsense Site A: Wan 
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/e9382851-6558-4b2b-a3c5-7ed5437e1c9c" />
 
-##Pfsense Site B: Wan 
+Pfsense Site B: Wan 
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/b964c636-d695-4a71-8864-0f37c46cdc0a" />
 
-##Tunnel 1
+Tunnel 1
 <img width="940" height="1076" alt="image" src="https://github.com/user-attachments/assets/0e74e0cf-6594-451a-96a5-1f033d02dfcd" />
 <img width="940" height="1076" alt="image" src="https://github.com/user-attachments/assets/b2f709a8-04c9-4e56-a669-8a229a234d40" />
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/fdaba21a-5b2f-41b2-8295-35bf8f95e231" />
 
 
-#Tunnel 2
+Tunnel 2
 <img width="940" height="523" alt="image" src="https://github.com/user-attachments/assets/a93a400f-ae31-46c6-8254-d34ba36632c9" />
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/8876cfc2-eaa9-4297-8c4b-83ff4815736a" />
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/4ff21af5-b879-420b-b894-b991f65e484f" />
@@ -100,12 +101,12 @@ Each pfSense firewall used **2 virtual adapters** — one for WAN and one for LA
 - Added inbound and outbound rules to permit encrypted traffic through IPsec.  
 - Verified connectivity between both LANs using `ping` and `tracert`.
 
-##On Site A: 
+On Site A: 
 
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/c863297d-adc2-445b-a995-3395bd56309d" />
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/59a5d25b-eecb-418d-93fb-f61b07d906e1" />
 
-##On Site B: 
+On Site B: 
 <img width="940" height="527" alt="image" src="https://github.com/user-attachments/assets/489f5964-2c0d-452a-9a0d-6da21e44d586" />
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/4b94d6a6-f8c1-4bf6-8022-4bf60dcd5249" />
 
@@ -126,14 +127,14 @@ Tunnel is established and its up
 
 - Each host was configured with static IPs and tested for secure communication.
 
-#Site A
+Site A
 Kali Linux
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/6408a5ff-2332-43a2-9fbb-6ed52d8899da" />
 
 Ubuntu
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/56ea2574-9b1c-41fe-922d-9294bc896211" />
 
-##Site B
+Site B
 Windows 10
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/2a90d5a8-6914-4323-b6a7-374dddaed0c8" />
 
