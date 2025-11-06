@@ -161,16 +161,17 @@ Verifying it from site B:
 
 Site A&B: 
 1.	Ipsec Tunnel encrypted with Strong pre shared key 
-2.	It encryption algorithm is “AES” 256 bits and hash algorithm is “SHA 256” 
+2.	It encryption algorithm is “AES” 256 bits and hash algorithm is “SHA 256”
+
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/7bc7f563-e48f-4be8-8e48-aaf1e3180ab8" />
 
-3.	Firewall rule for WAN interface 
+4.	Firewall rule for WAN interface 
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/d49f1e40-6d28-4ff4-bb3c-0727e5cb635e" />
 
-4.	Ipsec rule for both site
+5.	Ipsec rule for both site
 <img width="940" height="526" alt="image" src="https://github.com/user-attachments/assets/9c4cf9c9-aa5c-4d6f-baba-15e8a3ac7d90" />
 
-5.	Packet capture by “Wireshark”. We can see that the transfer data is encrypted.
+6.	Packet capture by “Wireshark”. We can see that the transfer data is encrypted.
 
 <img width="940" height="527" alt="image" src="https://github.com/user-attachments/assets/62e39e16-6162-4381-bdd8-d9b31e08a120" />
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/2f4eb9bb-0b2b-425a-bb91-48ec34cfcff1" />
